@@ -1,0 +1,71 @@
+{
+  "uid" : "460366604c3cf5da",
+  "name" : "testLogin[account1]",
+  "fullName" : "request1.TestLogin#testLogin",
+  "historyId" : "f14668b086a67241fb659e88270ba0b3",
+  "time" : {
+    "start" : 1682506451704,
+    "stop" : 1682506453351,
+    "duration" : 1647
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "request1"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "maqixiangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "67309-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "request1"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account",
+    "value" : "{'email': 'yangyu@reddio.co', 'password': 'Lovexiang1314', 'remember_me': 'true'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "430b35269ac8b987",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682502171355,
+        "stop" : 1682502172922,
+        "duration" : 1567
+      }
+    }, {
+      "uid" : "99c9ad26c4aa49ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1682501375094,
+        "stop" : 1682501376892,
+        "duration" : 1798
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "460366604c3cf5da.json",
+  "parameterValues" : [ "{'email': 'yangyu@reddio.co', 'password': 'Lovexiang1314', 'remember_me': 'true'}" ]
+}
