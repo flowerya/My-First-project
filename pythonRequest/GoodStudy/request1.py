@@ -1,3 +1,4 @@
+# 测试登录
 import pytest
 import requests
 class TestLogin:
@@ -5,32 +6,40 @@ class TestLogin:
         {
             "email": "yangyu@reddio.com",
             "password": "Lovexiang1314",
-            "remember_me": "true"
+            "remember_me": "true",
+            "status": "OK"
         },
         {
             "email": "yangyu@reddio.co",
             "password": "Lovexiang1314",
-            "remember_me": "true"
+            "remember_me": "true",
+            "status": "FAILED"
         },
         {
             "email": "yangyu@reddio.com",
             "password": "Lovexiang131",
-            "remember_me": "true"
+            "remember_me": "true",
+            "status": "FAILED"
         }
     ]
-
     @pytest.mark.parametrize("account", counts_data)
     def testLogin(self,account):
-        print(account,type(account))
-        #接口地址 https://api-dev.reddio.com/v1/login
         url ='https://api-dev.reddio.com/v1/login'
-        response = requests.post(url,account)
+        user_name = account.get("email")
+        password = account.get("password")
+        remeber = account.get("remember_me")
+        sta = account.get( "status")
+        data={
+            "email": user_name,
+            "password":password ,
+            "remember_me":  remeber,
+        }
+        response = requests.post(url,data)
         response_json = response.json()
-        #查看响应数据，返回的json，字典
         print(response.json())
-        #获取token
-        token = response_json.get("data")
-        print(token)
+        status = response_json.get("status")
+        assert(status==sta)
+
 
 
 
