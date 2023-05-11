@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","TestCase.TestClass2.TestEduitProject#testGetToken","1860",""
+"passed","TestCase.TestClass2.TestEduitProject#test_jump","0",""
+"passed","TestCase.TestClass2.TestEduitProject#testGetUUID","520",""

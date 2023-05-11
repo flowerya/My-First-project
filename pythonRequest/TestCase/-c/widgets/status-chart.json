@@ -1,0 +1,41 @@
+[ {
+  "uid" : "d67a39b52b58d66d",
+  "name" : "testGetUUID",
+  "time" : {
+    "start" : 1683537523490,
+    "stop" : 1683537527307,
+    "duration" : 3817
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efb505ea9dab26b9",
+  "name" : "testLogin[account0]",
+  "time" : {
+    "start" : 1683537516337,
+    "stop" : 1683537519218,
+    "duration" : 2881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc657413c4c39217",
+  "name" : "testLogin[account2]",
+  "time" : {
+    "start" : 1683537521349,
+    "stop" : 1683537523487,
+    "duration" : 2138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "744864cc49962e9e",
+  "name" : "testLogin[account1]",
+  "time" : {
+    "start" : 1683537519223,
+    "stop" : 1683537521246,
+    "duration" : 2023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,57 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase.TestClass1",
+    "children" : [ {
+      "name" : "testLogin[account0]",
+      "uid" : "efb505ea9dab26b9",
+      "parentUid" : "1d40a4d96df3f72a450d72a0a9307420",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683537516337,
+        "stop" : 1683537519218,
+        "duration" : 2881
+      },
+      "flaky" : false,
+      "parameters" : [ "{'email': 'yangyu@reddio.com', 'password': 'Lovexiang1314', 'remember_me': 'true', 'status': 'OK'}" ]
+    }, {
+      "name" : "testLogin[account1]",
+      "uid" : "744864cc49962e9e",
+      "parentUid" : "1d40a4d96df3f72a450d72a0a9307420",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683537519223,
+        "stop" : 1683537521246,
+        "duration" : 2023
+      },
+      "flaky" : false,
+      "parameters" : [ "{'email': 'yangyu@reddio.co', 'password': 'Lovexiang1314', 'remember_me': 'true', 'status': 'FAILED'}" ]
+    }, {
+      "name" : "testLogin[account2]",
+      "uid" : "fc657413c4c39217",
+      "parentUid" : "1d40a4d96df3f72a450d72a0a9307420",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683537521349,
+        "stop" : 1683537523487,
+        "duration" : 2138
+      },
+      "flaky" : false,
+      "parameters" : [ "{'email': 'yangyu@reddio.com', 'password': 'Lovexiang131', 'remember_me': 'true', 'status': 'FAILED'}" ]
+    }, {
+      "name" : "testGetUUID",
+      "uid" : "d67a39b52b58d66d",
+      "parentUid" : "1d40a4d96df3f72a450d72a0a9307420",
+      "status" : "passed",
+      "time" : {
+        "start" : 1683537523490,
+        "stop" : 1683537527307,
+        "duration" : 3817
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "TestCase.TestClass1"
+  } ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "TestClass2",
+      "children" : [ {
+        "name" : "TestEduitProject",
+        "children" : [ {
+          "name" : "testGetToken",
+          "uid" : "fa67b74039edd272",
+          "parentUid" : "e1ddc759818680c5415cd2187cce4455",
+          "status" : "passed",
+          "time" : {
+            "start" : 1683724795819,
+            "stop" : 1683724797679,
+            "duration" : 1860
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "testGetUUID",
+          "uid" : "1dddd27a23e90a09",
+          "parentUid" : "e1ddc759818680c5415cd2187cce4455",
+          "status" : "passed",
+          "time" : {
+            "start" : 1683724797683,
+            "stop" : 1683724798203,
+            "duration" : 520
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_jump",
+          "uid" : "1948234dffa7a9b4",
+          "parentUid" : "e1ddc759818680c5415cd2187cce4455",
+          "status" : "passed",
+          "time" : {
+            "start" : 1683724798207,
+            "stop" : 1683724798207,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e1ddc759818680c5415cd2187cce4455"
+      } ],
+      "uid" : "f02ce1a5953d6dfaa7dcb35b20d46752"
+    } ],
+    "uid" : "ee79ae265a842e48c4df30f006daaf4e"
+  } ]
+}

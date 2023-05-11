@@ -1,0 +1,70 @@
+{
+  "uid" : "1948234dffa7a9b4",
+  "name" : "test_jump",
+  "fullName" : "TestCase.TestClass2.TestEduitProject#test_jump",
+  "historyId" : "3e8e2300a0879a73b2b0ba2f8bda54ad",
+  "time" : {
+    "start" : 1683724798207,
+    "stop" : 1683724798207,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "cleanYaml",
+    "time" : {
+      "start" : 1683724795817,
+      "stop" : 1683724795817,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "TestClass2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestEduitProject"
+  }, {
+    "name" : "host",
+    "value" : "maqixiangdeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "89862-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.TestClass2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1948234dffa7a9b4.json",
+  "parameterValues" : [ ]
+}

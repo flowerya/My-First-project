@@ -1,0 +1,5 @@
+"Status","Name","Duration in ms","Description"
+"passed","TestCase.TestClass1.TestLogin#testGetUUID","3817",""
+"passed","TestCase.TestClass1.TestLogin#testLogin","2881",""
+"passed","TestCase.TestClass1.TestLogin#testLogin","2138",""
+"passed","TestCase.TestClass1.TestLogin#testLogin","2023",""
